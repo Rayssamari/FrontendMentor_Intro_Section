@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNAP - Frontend Mentor</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-main">
+            <div class="logo">
+                <img src="images/logo.svg" alt="logo snap" />
+            </div>
+           
+            <div class="open-nav-menu">
+                <img src="images/icon-menu.svg" alt="open menu icon" />
+            </div>
+            <div class="menu-overlay">
+
+            </div>
+            <nav class="nav-menu">
+                <div class="close-nav-menu">
+                    <img src="images/icon-close-menu.svg" alt="close icon" />
+                </div>
+                <ul class="menu">
+                    <li class="menu-item menu-item-has-children">
+                        <a href="#" data-toggle="sub-menu">Features <img src="images/icon-arrow-down.svg" /></a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="#"><img src="images/icon-todo.svg" /> Todo List</a></li>
+                            <li class="menu-item"><a href="#"><img src="images/icon-calendar.svg" /> Calendar</a></li>
+                            <li class="menu-item"><a href="#"><img src="images/icon-reminders.svg" /> Reminders</a></li>
+                            <li class="menu-item"><a href="#"><img src="images/icon-planning.svg" /> Planning</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item menu-item-has-children">
+                        <a href="#" data-toggle="sub-menu">Company <img src="images/icon-arrow-down.svg" /> </a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="#"> History</a></li>
+                            <li class="menu-item"><a href="#"> Our Team</a></li>
+                            <li class="menu-item"><a href="#"> Blog</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="#">Careers</a></li>
+                    <li class="menu-item"><a href="#">About</a></li>
+                </ul>
+                <ol class="menu">
+                    <li class="menu-item"><a href="#">Login</a></li>
+                    <li class="menu-item"><a href="#">Register</a></li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="container-leftSide">
+                    <h1>Make <br> remote work</h1>
+                    <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar</p>
+                    <a href="">Learn more</a>
+                    <div class="images">
+                        <img src="images/client-databiz.svg" alt="" />
+                        <img src="images/client-audiophile.svg" alt="" />
+                        <img src="images/client-meet.svg" alt="" />
+                        <img src="images/client-maker.svg" alt="" />
+                    </div>
+            </div>
+            <div class="container-rightSide">
+                <picture>
+                    <source srcset="images/image-hero-mobile.png" media="(max-width:830px)">
+                    <img src="images/image-hero-desktop.png" alt="imagem principal" />
+                </picture>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Desenvolvido por Rayssa Santana. (Frontend Mentor Challenge)</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
